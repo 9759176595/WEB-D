@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>JS closure</title>
+	<script type="text/javascript">
+		function add()
+		{
+			var a,b,c;
+			a=Number(document.getElementById('first').value);
+				b=Number(document.getElementById('second').value);
+			c= a+b;
+			document.getElementById('answer').value=c;
+		}
+	</script>
+</head>
+<body>
+	<h1>Enter no: to add</h1>
+	Enter First no:<input id="first">
+	Enter Second no:<input id="second">
+	    <button type="submit" onclick="add()">Add</button>
+	    <input id="answer">
+	
+	
+
+</body>
+</html>
